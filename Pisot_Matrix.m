@@ -5,6 +5,8 @@
 %Defining the size of the matrix
 size = 8;
 
+%Setting a random RNG seed
+rng('shuffle')
 
 while true
 	%Generate a size x size binary matrix
